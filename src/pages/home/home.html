@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Movies
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="home">
+    <ion-list>
+        <a href="#">
+            <ion-item *ngFor="let movie of movies">
+                <ion-thumbnail item-left>
+                    <img src="{{movie.image}}">
+                </ion-thumbnail>
+                <h2>{{movie.name}}</h2>
+                <ion-list>
+                    <ion-badge *ngFor="let keyword of movie.keywords" class="label label-primary">{{keyword}}</ion-badge>
+                </ion-list>
+            </ion-item>
+        </a>
+    </ion-list>
+</ion-content>
