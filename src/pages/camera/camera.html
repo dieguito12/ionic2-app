@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Upload
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <button ion-button id="cameraTakePicture" (click)='cameraTakePicture()'>Take Picture</button>
+    <button ion-button id="searchPicture" (click)='searchPicture()'>Search Picture</button>
+    <img id="myImage" />
+    <progress-bar [class]="show" [progress]="0"></progress-bar>
+    <!--<progress id="progressBar" max="100" class="hide" value="0"></progress>-->
+    <button ion-button class="hide" id="uploadPicture" (click)='uploadPicture()'>Upload Picture</button>
+</ion-content>
