@@ -1,0 +1,56 @@
+progress-bar {
+    .progress-outer {
+        width: 96%;
+        margin: 10px 2%;
+        padding: 3px;
+        text-align: center;
+        background-color: #f4f4f4;
+        border: 1px solid #dcdcdc;
+        color: #fff;
+        border-radius: 20px;
+    }
+    .progress-inner {
+        min-width: 15%;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: map-get($colors, primary);
+    }
+    .show {
+        display: block;
+    }
+    .hide {
+        display: none;
+    }
+    .fifteen {
+        width: 15%;
+    }
+    .twenty {
+        width: 20%;
+    }
+    .thirty {
+        width: 30%;
+    }
+    .fourty {
+        width: 40%;
+    }
+    .fifty {
+        width: 50%;
+    }
+    .sixty {
+        width: 60%;
+    }
+    .seventy {
+        width: 70%;
+    }
+    .eighty {
+        width: 80%;
+    }
+    .ninety {
+        width: 90%;
+    }
+    .hundred {
+        width: 100%;
+    }
+}

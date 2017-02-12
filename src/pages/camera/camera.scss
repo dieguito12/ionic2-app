@@ -1,0 +1,19 @@
+page-camera {
+    .show {
+        display: block;
+    }
+    .hide {
+        display: none;
+    }
+    #myImage {
+        max-width: 80%;
+        max-height: 80%;
+    }
+    .progress {
+        margin: 0 px;
+        height: 8 px;
+        background-color: #F1292B!important;
+        border-radius: 2 px;
+        box-shadow: 0 2 px 5 px rgba(0, 0, 0, 0.25) inset;
+    }
+}
